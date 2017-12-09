@@ -35,6 +35,14 @@ $('.browser-right-arrow').click(function(){
   $('.browser-content-slider').slick('slickNext');
 })
 
+$(".container" ).hover(
+  function() {
+    $( this ).addClass( "hover" );
+  }, function() {
+    $( this ).removeClass( "hover" );
+  }
+);
+
 $('.home-testimonials').slick({
   arrows: false,
   infinite: true,
