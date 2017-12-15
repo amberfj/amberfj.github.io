@@ -13,9 +13,9 @@
   ],
   "devDependencies": {
     "bootstrap": "~4.0.0-beta",
-    "popper.js": "^1.12.3",
     "browser-sync": "^2.18.13",
     "browserify": "~14.4.0",
+    "cssnano": "~3.10.0",
     "es6-promise": "~4.1.1",
     "event-stream": "~3.3.4",
     "font-awesome": "~4.7.0",
@@ -31,9 +31,9 @@
     "jquery": "~3.2.1",
     "jquery-match-height": "^0.7.2",
     "magnific-popup": "^1.1.0",
+    "popper.js": "^1.12.3",
     "slick-carousel": "^1.7.1",
     "vinyl-buffer": "~1.0.0",
-    "vinyl-source-stream": "~1.1.0",
-    "cssnano": "~3.10.0"
+    "vinyl-source-stream": "~1.1.0"
   }
 }
