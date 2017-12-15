@@ -2,12 +2,18 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container-fluid home">
   <div class="row">
     {% for post in site.posts %}
-    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
-      <h1>Homepage goes here</h1>
-      <a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{post.title}}</a>
+    <div class="col-xl-auto col-lg-auto pb-4">
+    	<div class="project-home">
+    		<div class="project-content">
+		    	<a href="{{ site.baseurl }}{{ post.url }}">
+		      	<img src="{{post.image}}" alt="">
+		      	<span>{{post.title}} ({{post.year}})</span>
+		    	</a>
+    		</div>
+    	</div>
     </div>  
     {% endfor %}
   </div>

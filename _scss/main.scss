@@ -1,5 +1,6 @@
 /* Bootstrap */
-@import "../node_modules/bootstrap/scss/bootstrap";
+// @import "../node_modules/bootstrap/scss/bootstrap";
+@import 'bootstrap-custom';
 
 /* Font Awesome */
 $fa-font-path: "../fonts/FontAwesome";
@@ -18,6 +19,7 @@ $fa-font-path: "../fonts/FontAwesome";
 /* Layout */
 @import "layout/header";
 @import "layout/footer";
+@import "layout/project";
 
 /* Components */
 @import "components/navbar";

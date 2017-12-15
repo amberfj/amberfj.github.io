@@ -2,13 +2,15 @@
 
 header {
   @include rem(padding, 25px 0 25px 0);
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
-  .container {
-    padding: 0;
+  ul.navbar-links {
+  	padding: 0;
+  	li {
+  		// float: left;
+  		display: inline-block;
+  		list-style: none;
+  		a {
+  			@include rem(padding, 10px 15px);
+  		}
+  	}
   }
-}
-
-.navbar-brand {
-  font-size: 32px;
 }
