@@ -5,14 +5,27 @@ layout: default
 <div class="container-fluid project">
 	<div class="post">
 
-	  <header class="post-header">
-	    <h5 class="post-title">{{ page.title }} ({{ page.year }})</h5>
-	    <p class="post-meta"></p>
-	  </header>
-
-	  <article class="post-content">
-	    {{ content }}
-	  </article>
+		<div class="row">
+			<div class="col-xl-2">
+			</div>
+			<div class="col-xl-8">
+				<div class="your-class">
+			  {% for link_hash in page.images %}
+			    {% for link in link_hash %}
+			      <img src="/../assets/img/{{link[0]}}" alt="">
+			    {% endfor %}
+			  {% endfor %}
+				</div>
+			</div>
+			<div class="col-xl-2"></div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-xl-4">
+	    	<p class="post-title">{{ page.title }} ({{ page.year }})</p>
+	    	{{ content }}
+			</div>
+			<div class="col-xl-8"></div>
+		</div>
 
 	</div>
 </div>

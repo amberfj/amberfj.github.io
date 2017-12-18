@@ -91,3 +91,7 @@ $('.image-link').magnificPopup({
     enabled: true
   }
 });
+
+/*slick*/
+$('.your-class').slick();
+

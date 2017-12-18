@@ -4,6 +4,9 @@ title:  "Welcome to Jekyll 1"
 date:   2015-10-13 14:40:50
 categories: projects
 image: http://via.placeholder.com/220x150
+links:
+ - demo.jpeg: http://www.github.com/copperegg/mongo-scaling-demo
+ - demo1.png: http://www.github.com/copperegg/mongo-scaling-demo
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
