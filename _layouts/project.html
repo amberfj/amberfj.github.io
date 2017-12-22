@@ -9,6 +9,15 @@ layout: default
 			<div class="col-xl-2">
 			</div>
 			<div class="col-xl-8">
+				<div class="hero__nav">
+					<div class="slider-nav hero__prev js-hero-prev">
+						<div class="icon icon-prev">←&nbsp;</div>
+					</div>
+					<div class="slider-nav hero__next js-hero-next">
+						<div class="icon icon-next">&nbsp;→&nbsp;&nbsp;</div>
+					</div>
+					<span class="slider-nav pagingInfo"></span>
+				</div>
 				<div class="your-class">
 			  {% for link_hash in page.images %}
 			    {% for link in link_hash %}
