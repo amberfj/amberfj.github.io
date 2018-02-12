@@ -1,9 +1,9 @@
 ---
 layout: project
-title:  "Welcome to Jekyll 4"
+title:  "Welcome to Jekyll 2"
 date:   2015-10-13 14:40:50
 categories: projects
-image: http://via.placeholder.com/220x150
+image: http://via.placeholder.com/450x150
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

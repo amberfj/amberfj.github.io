@@ -1,10 +1,16 @@
 .container-fluid.project {
 	padding: 0 120px;
 	.hero__nav {
-		padding-bottom: 3rem;
+		padding-bottom: 20px;
 	}
 	.slider-nav {
 		cursor: pointer;
 		display: inline-block;
+	}
+	.project-content {
+		padding-top: 20px;
+	}
+	.two-columns {
+		column-count: 2;
 	}
 }

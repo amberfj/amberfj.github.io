@@ -1,9 +1,13 @@
 /* Header */
 
 header {
-  @include rem(padding, 25px 0 25px 0);
+  @include rem(padding, 25px 0 20px 0);
+  p {
+    margin-bottom: 0;
+  }
   ul.navbar-links {
-  	padding: 0;
+    padding: 0;
+    margin-bottom: 0;
   	li {
   		// float: left;
   		display: inline-block;
