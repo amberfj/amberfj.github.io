@@ -14,10 +14,8 @@ layout: default
 			<span class="slider-nav pagingInfo"></span>
 		</div>
 		<div class="your-class">
-			{% for link_hash in page.images %}
-				{% for link in link_hash %}
-			    	<img src="/../assets/img/{{link[0]}}" alt="">
-		    	{% endfor %}
+			{% for link in page.images %}
+				<img src="/../assets/img/{{ link }}" alt="">
 		  	{% endfor %}
 		</div>
 	{% endif %}
