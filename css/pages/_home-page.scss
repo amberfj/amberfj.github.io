@@ -14,6 +14,10 @@
 		// display: inline-block;
 		// width: 100%;
 
+		a {
+			border-bottom: none;
+		}
+
 		.image-container {
 			display: inline-block;
 			@include mq($until: sm) {

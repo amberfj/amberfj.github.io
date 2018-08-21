@@ -17,7 +17,7 @@ header {
   @include mq($from: lg) {
     width: auto;
     box-sizing: default;
-    padding: 20px 0px 30px 50px;
+    padding: 0px 0px 30px 50px;
   }
 
   nav {

@@ -33,7 +33,7 @@ a {
 	text-decoration: none;
 	color: #000000;
 }
-a:not(:has(div)):hover, a:hover span {
+a:hover {
 	border-bottom: 1px dotted;
 }
 
