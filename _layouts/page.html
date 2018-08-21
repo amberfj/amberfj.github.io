@@ -22,7 +22,7 @@ layout: default
 						{% if slide.width  %} width ="{{ slide.width  }}" {% endif %}
 						{% if slide.height %} height="{{ slide.height }}" {% endif %}>
 					{% if slide.caption %}
-						<span class="caption">{{ slide.caption }}</span>
+						<div class="caption">{{ slide.caption }}</div>
 					{% endif %}
 				</div>
 		  	{% endfor %}
