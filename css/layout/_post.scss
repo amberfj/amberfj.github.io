@@ -31,19 +31,23 @@
 		margin-bottom: 40px;
 	}
 
-	.slideshow img { // this name really needs to be changed!
+	.slideshow > * { // this name really needs to be changed!
 		position: absolute;
 		opacity: 0;
-
-		max-height: 500px;
-		max-width: 100%;
-		//height: 400px;
-		// width: 100%;
 		transition: opacity .25s linear;
 	}
 
-	.slideshow img.visible {
-		opacity: 1;
+	.slideshow > *.visible { opacity: 1 }
+
+	.slideshow img {
+		max-height: 500px;
+		max-width: 100%;
+	}
+
+	.slideshow .caption {
+		font-family: "Open Sans Condensed", "arial", sans-serif;
+		font-size: 0.8em;
+		color: #BBBBBB;
 	}
 
 	.post-title {

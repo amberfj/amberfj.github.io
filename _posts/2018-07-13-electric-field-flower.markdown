@@ -6,7 +6,7 @@ categories: projects
 image: flowers/Electric-field-of-a-flower-FLP-2018-sm.png 
 width: 500px
 slideshow:
- - flowers/Electric-field-of-a-flower-FLP-2018-sm.png
+ - image: flowers/Electric-field-of-a-flower-FLP-2018-sm.png
  
  
 ---

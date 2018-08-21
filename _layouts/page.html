@@ -16,8 +16,15 @@ layout: default
 			</div>
 		{% endif %}
 		<div class="slideshow">
-			{% for image in page.slideshow %}
-				<img src="/../assets/img/{{ image }}" alt="">
+			{% for slide in page.slideshow %}
+				<div {% if slide.duration %} data-duration="{{ slide.duration }}" {% endif %}>
+					<img src="/../assets/img/{{ slide.image }}" alt=""
+						{% if slide.width  %} width ="{{ slide.width  }}" {% endif %}
+						{% if slide.height %} height="{{ slide.height }}" {% endif %}>
+					{% if slide.caption %}
+						<span class="caption">{{ slide.caption }}</span>
+					{% endif %}
+				</div>
 		  	{% endfor %}
 		</div>
 	{% endif %}
