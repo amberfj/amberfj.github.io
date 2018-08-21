@@ -6,3 +6,5 @@
 
 # ignore cache
 /.sass-cache/
+
+/.DS_STORE

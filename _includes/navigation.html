@@ -8,12 +8,26 @@
       <button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('collapsed')">☰</button>
 
       <ul class="navbar-links collapsed">
-        <li><a href="/" 
+        <li>
+          <a href="/" 
           {% unless current[1] %} class='current' {% endunless %}
-          {% if current[1] == 'projects' %}   class='current'{% endif %}>Selected Works</a></li>
-        <li><a href="/texts"   {% if current[1] == 'texts' %}   class='current'{% endif %}>Texts</a></li>
+          {% if current[1] == 'projects' %}   class='current'{% endif %}>
+            {{ site.data.navigation.home }}
+          </a>
+        </li>
+        <!-- {% for link in site.data.navigation.links %}
+          <li>
+            <a href="{{ link.href }}" {% if current[1] == '{{ link.href | remove: '/' }}' %} class='current'{% endif %}>
+              {% assign test = (current[1] == link.href | remove: '/' ) %}
+              {{ test }}
+              {{ link.name }}
+              
+            </a>
+          </li>
+        {% endfor %}-->
+        
         <li><a href="/biography"      {% if current[1] == 'biography' %}      class='current'{% endif %}>Biography</a></li>
-        <li><a href="/studios" {% if current[1] == 'studios' %} class='current'{% endif %}>Studio</a></li>
+        <li><a href="/studio" {% if current[1] == 'studios' %} class='current'{% endif %}>Studio</a></li>
         <li><a href="/collaborations" {% if current[1] == 'collaborations' %} class='current'{% endif %}>Collaborations</a></li>
         <li><a href="/contact" {% if current[1] == 'contact' %} class='current'{% endif %}>Contact</a></li>
       </ul>
