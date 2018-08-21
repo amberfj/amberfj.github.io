@@ -1,40 +1,36 @@
-var Siema = require('./siema.min')
 
-new Siema({
-  selector: '.slideshow',
-  duration: 1000,
-  easing: 'ease-out',
-  perPage: 1,
-  startIndex: 0,
-  draggable: false,
-  multipleDrag: false,
-  threshold: 20,
-  loop: true,
-  rtl: false,
-  // onInit: () => {},
-  onChange: () => {},
-});
+var slideshow = document.querySelector('.slideshow');
+var nextButton = document.querySelector('.next-slide');
+var prevButton = document.querySelector('.prev-slide');
+var info = document.querySelector('.paging-info');
 
-/*var $status = $('.pagingInfo');
-var $slickElement = $('.your-class');
+var delay = 5000;
 
+if (slideshow != undefined) {
+  var slides = [].slice.call(document.querySelectorAll('.slideshow > *'));
+  var currentIndex = 0;
 
-$slickElement.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
-    //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-    var i = (currentSlide ? currentSlide : 0) + 1;
-    $status.text(i + ' of ' + slick.slideCount);
-});
+  var timeout;
 
-$slickElement.slick({
-    // slide: 'img',
-    draggable: false,
-    autoplay: true,
-    appendArrows: $('.hero__nav'),
-    prevArrow: $('.js-hero-prev'),
-    nextArrow: $('.js-hero-next'),
-    dots: false,
-    speed: 700,
-    fade: true,
-    variableWidth: true,
-    cssEase: 'linear'
-});*/
+  function setSlide(newIndex) {
+    // hide current slide
+    slides[currentIndex].classList.remove('visible');
+    // make sure index is positive and within length of the array
+    currentIndex = ((newIndex % slides.length) + slides.length) % slides.length;
+    // show new slide
+    slides[currentIndex].classList.add('visible');
+    // update info
+    if(info != undefined) info.textContent = currentIndex + " of " + slides.length;
+    // set new timeout
+    clearTimeout(timeout)
+    timeout = setTimeout(nextSlide, delay)
+  }
+
+  function nextSlide() { setSlide(currentIndex + 1) }
+  function prevSlide() { setSlide(currentIndex - 1) }
+
+  if(nextButton != undefined) nextButton.addEventListener('click', nextSlide);
+  if(nextButton != undefined) prevButton.addEventListener('click', prevSlide);
+
+  setSlide(0);
+}

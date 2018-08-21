@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
+  <body{% if page.background %}
+    style="background-image: url('/../assets/img/{{ page.background}}')"
+  {% endif %}>
+    <!--{% if page.background %}
+      <img src="/../assets/img/{{ page.background }}" class="background">
+    {% endif %}-->
   	<div class="container root">
         {% include navigation.html %}
 				{{ content }}
 				{% include footer.html %}
     </div>
     <script src="{{ root }}/js/dist/app.bundle.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
   </body>
 </html>

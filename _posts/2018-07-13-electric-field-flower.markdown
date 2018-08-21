@@ -5,9 +5,9 @@ year: 2018
 categories: projects
 image: flowers/Electric-field-of-a-flower-FLP-2018-sm.png 
 width: 500px
-images:
+slideshow:
  - flowers/Electric-field-of-a-flower-FLP-2018-sm.png
- - flowers/NfF_Poster-2018.pdf
+ 
  
 ---
 

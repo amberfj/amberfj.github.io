@@ -11,20 +11,39 @@
 	}
 	
 
-	.hero__nav {
+	.slide-controller {
 		padding-bottom: 5px;
 		font-family: "Open Sans Condensed", "arial", sans-serif;
+
+		.next-slide, .prev-slide {
+			cursor: pointer;
+			display: inline-block;
+		}
+
+		.paging-info {
+			font-size: 0.8em;
+		}
 	}
-	.slider-nav {
-		cursor: pointer;
-		display: inline-block;
-	}
-	.your-class img { // this name really needs to be changed!
-		max-height: 500px;
-		width: auto !important;
+
+	.slideshow {
+		position: relative;
+		height: 500px;
 		margin-bottom: 40px;
+	}
+
+	.slideshow img { // this name really needs to be changed!
+		position: absolute;
+		opacity: 0;
+
+		max-height: 500px;
+		max-width: 100%;
 		//height: 400px;
 		// width: 100%;
+		transition: opacity .25s linear;
+	}
+
+	.slideshow img.visible {
+		opacity: 1;
 	}
 
 	.post-title {

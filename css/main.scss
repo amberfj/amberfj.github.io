@@ -1,23 +1,12 @@
 ---
 ---
 
-
-@import "vendor/vendor";
-/* Bootstrap */
-// @import "../node_modules/bootstrap/scss/bootstrap";
-// @import 'bootstrap-custom';
-// @import 'base/reset';
-
 /* Mixins */
 @import "mixins/rem";
 @import "mixins/transitions";
 @import "mixins/mq";
 
 @import 'base/fallback';
-
-/* Font Awesome */
-/*$fa-font-path: "../fonts/FontAwesome";
-@import "../node_modules/font-awesome/scss/font-awesome";*/
 
 /* Global */
 @import "base/global";
@@ -30,6 +19,3 @@
 @import "layout/post";
 @import "layout/footer";
 
-
-/* Typography */
-// @import "typography/headings";

@@ -5,17 +5,17 @@ layout: default
 <div class="post">
 	{% if page.slideshow.size > 0 %}
 		{% if page.slideshow.size > 1 %}
-			<div class="hero__nav">
-				<div class="slider-nav hero__prev js-hero-prev">
+			<div class="slide-controller">
+				<div class="prev-slide">
 					<div class="icon icon-prev">←&nbsp;</div>
 				</div>
-				<div class="slider-nav hero__next js-hero-next">
+				<div class="next-slide">
 					<div class="icon icon-next">&nbsp;→&nbsp;&nbsp;</div>
 				</div>
-				<span class="slider-nav pagingInfo"></span>
+				<span class="paging-info"></span>
 			</div>
 		{% endif %}
-		<div class="your-class">
+		<div class="slideshow">
 			{% for image in page.slideshow %}
 				<img src="/../assets/img/{{ image }}" alt="">
 		  	{% endfor %}
