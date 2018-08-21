@@ -1,7 +1,21 @@
 ---
 layout: page
-title: Studio
+title: Studio for Extensive Aesthetics
+date: 2018
 permalink: /studio/
+images: 
+- SEA/2018-Studio-for-Extensive_Aestetics.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu risus in est varius vestibulum sit amet et turpis. Phasellus ac finibus erat. Vestibulum quis dolor justo. Nam vitae justo et quam fringilla sagittis. Suspendisse dapibus feugiat consequat. Suspendisse facilisis vestibulum leo eu auctor. Curabitur non odio in ex posuere varius. Nunc consectetur, sem vitae porta dictum, tortor turpis congue velit, at ullamcorper ex ex sit amet dui. Sed vitae placerat dolor, sed condimentum ipsum.  Curabitur non odio in ex posuere varius. Nunc consectetur, sem vitae porta dictum, tortor turpis congue velit, at ullamcorper ex ex sit amet dui. Sed vitae placerat dolor, sed condimentum ipsum.
+The Studio for Extensive Aesthetics (SEA) investigates the roles of art and technology in contemporary society. Transdisciplinary in nature, the SEA fuses artistic modes of production with code and experimental design to create installations, books and platforms that explore themes from the aesthetics and politics of artificial neural networks to feminist media theory. The studio connects student and faculty researchers with international theorists and practitioners through projects ranging from screen-based work to urban-scale installations. Founded in 2014 and funded by the Canada Foundation for Innovation, the SEA is directed by Amber Frid-Jimenez, Associate Professor and Canada Research in Art and Design Technology at Emily Carr University of Art & Design.
+
+**Research Associates**<br/>
+Dr. T’ai Smith (UBC), Kathy Slade (ECU), Joe Dahmen (UBC), Dr. Katherine Gillieson, Dr. Caroline Park (ECU), Mel Chin, Ben Dalton (RCA), Dr. Archon Fung (Harvard), Dr. Mark Warren (UBC), Lucy Orta (UAL), Andrea Del Rio, Lydia Prince, Robert Kleyn, David Ascher, Dethe Elza, Tim Waters
+
+**Student & Post-Graduate Research Assistants**<br/>
+Matthis Grunsky (MFA 2016), Jesi Carson (MDes 2018), Azlen Elza (BFA 2022), Lianne Zannier (MFA 2016), Joe O’Brien (MFA 2016), Bronwyn McMillin (MFA 2016), Lily Mead Martin (MFA 2016), Kushal Goenka (BDes 2017), Sabrina Ng (BDes 2014), Stephan Garneau (BDes 2015), Adam Cristobal (MDes 2014), Sam Jiang (BDes 2013), Heather Tsang (BDes 2013), Joakim Sundal (BDes 2013) 
+
+**Funding Organizations**<br/>
+Canada Research Chair Program, Canada Foundation for Innovation, Social Sciences and Humanities Research Council, Peter Wall Institute for Advanced Studies, UBC SEEDS Sustainability Program
+
+
