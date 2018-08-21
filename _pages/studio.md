@@ -3,8 +3,7 @@ layout: page
 title: Studio for Extensive Aesthetics
 date: 2018
 permalink: /studio/
-images: 
-- SEA/2018-Studio-for-Extensive_Aestetics.png
+background: SEA/2018-Studio-for-Extensive_Aestetics_LR.png
 ---
 
 The Studio for Extensive Aesthetics (SEA) investigates the roles of art and technology in contemporary society. Transdisciplinary in nature, the SEA fuses artistic modes of production with code and experimental design to create installations, books and platforms that explore themes from the aesthetics and politics of artificial neural networks to feminist media theory. The studio connects student and faculty researchers with international theorists and practitioners through projects ranging from screen-based work to urban-scale installations. Founded in 2014 and funded by the Canada Foundation for Innovation, the SEA is directed by Amber Frid-Jimenez, Associate Professor and Canada Research in Art and Design Technology at Emily Carr University of Art & Design.

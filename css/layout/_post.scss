@@ -1,10 +1,13 @@
 .post {
+	background-color: #FFFFFF;
+
 	text-align: left;
 	padding: 20px;
+	box-sizing: border-box;
 
 	@include mq($from: lg) {
 		margin-left: 290px;
-		width: 680px;
+		width: 720px;
 	}
 	
 

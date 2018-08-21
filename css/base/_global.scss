@@ -6,7 +6,10 @@
 
 body,
 html {
-  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  // height: 100%;
 }
 
 body {
@@ -15,6 +18,11 @@ body {
   font-family: "Noto Serif", serif;
 
   padding-top: 30px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
   @include mq($from: sm) {
   	padding-top: 75px
@@ -25,15 +33,32 @@ body {
 //   background-color: #ddd;
 // }
 
-img {
-  max-width: 100%;
-}
+img { max-width: 100% }
+
+/*img.background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  max-width: none !important;
+}*/
+
+/*img.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}*/
 
 a {
 	text-decoration: none;
 	color: #000000;
 }
 a:hover {
-	border-bottom: 1px dotted;
+	border-bottom: 1px dotted #ff0099;
 }
 

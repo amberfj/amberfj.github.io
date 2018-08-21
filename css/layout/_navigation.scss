@@ -1,6 +1,7 @@
 /* Header */
 
 header {
+  background-color: #FFFFFF;
   padding: 0px 0px 40px 0px;
   font-family: "Open Sans Condensed", "arial", sans-serif;
   // @include rem(padding, 25px 0 20px 0);
@@ -17,7 +18,8 @@ header {
   @include mq($from: lg) {
     width: auto;
     box-sizing: default;
-    padding: 0px 0px 30px 50px;
+    padding: 20px;
+    margin: 0px 0px 10px 30px;
   }
 
   nav {
@@ -42,10 +44,12 @@ header {
     a { color: #000000; }
 
     p.title {
+      margin-top: 0;
       margin-bottom: 30px;
       a {
-        color: #000000 !important;
+        color: #000000;
         text-decoration: none;
+        border-bottom: none;
         font-weight: bold;
       }
     }
@@ -56,7 +60,7 @@ header {
       // margin-bottom: 0;
       //  margin-top: 20px;
       li {
-        display: block !important;
+        display: block;
         list-style: none;
 
         /*@include media-breakpoint-up(md) {
@@ -65,7 +69,7 @@ header {
 
         /*a { margin-right: 15px }*/
         a.current {
-          font-weight: bold;
+          border-bottom: 1px dotted #000000;
         }
       }
     }

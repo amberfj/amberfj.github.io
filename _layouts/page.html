@@ -3,19 +3,21 @@ layout: default
 ---
 
 <div class="post">
-	{% if page.images.size > 0 %}
-		<div class="hero__nav">
-			<div class="slider-nav hero__prev js-hero-prev">
-				<div class="icon icon-prev">←&nbsp;</div>
+	{% if page.slideshow.size > 0 %}
+		{% if page.slideshow.size > 1 %}
+			<div class="hero__nav">
+				<div class="slider-nav hero__prev js-hero-prev">
+					<div class="icon icon-prev">←&nbsp;</div>
+				</div>
+				<div class="slider-nav hero__next js-hero-next">
+					<div class="icon icon-next">&nbsp;→&nbsp;&nbsp;</div>
+				</div>
+				<span class="slider-nav pagingInfo"></span>
 			</div>
-			<div class="slider-nav hero__next js-hero-next">
-				<div class="icon icon-next">&nbsp;→&nbsp;&nbsp;</div>
-			</div>
-			<span class="slider-nav pagingInfo"></span>
-		</div>
+		{% endif %}
 		<div class="your-class">
-			{% for link in page.images %}
-				<img src="/../assets/img/{{ link }}" alt="">
+			{% for image in page.slideshow %}
+				<img src="/../assets/img/{{ image }}" alt="">
 		  	{% endfor %}
 		</div>
 	{% endif %}

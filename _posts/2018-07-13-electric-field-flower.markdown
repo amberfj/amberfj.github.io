@@ -3,7 +3,7 @@ layout: page
 title:  "Diptych, Electric field of a flower"
 year: 2018
 categories: projects
-image: assets/img/flowers/Electric-field-of-a-flower-FLP-2018-sm.png 
+image: flowers/Electric-field-of-a-flower-FLP-2018-sm.png 
 width: 500px
 images:
  - flowers/Electric-field-of-a-flower-FLP-2018-sm.png
