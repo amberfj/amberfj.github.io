@@ -1,21 +1,48 @@
-<header>
-  <nav>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-5 col-lg-5 text-center">
-          <p><a href="{{site.baseurl}}/">Amber Frid-Jimenez</a></p>
-        </div>
-        <div class="col-xl-7 col-lg-7 text-center">
-          <ul class="navbar-links">
-            <li><a href="/">Selected Works</a></li>
-            <li><a href="/texts">Texts</a></li>
-            <li><a href="/cv">CV</a></li>
-            <li><a href="/studios">Studios</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </div>
+{% assign current = page.url | append: '/' | downcase | split: '/' %}
+
+<div class="container-fluid">
+  
+    <nav class="navbar navbar-expand">
+      <a class="title navbar-brand" href="{{site.baseurl}}/">Amber Frid-Jimenez</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-links navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="/" {% if current[1] == '' %} class='current' {% endif %}>
+              Selected Works
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/texts" {% if current[1] == 'texts' %} class='current'{% endif %}>
+              Texts
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/biography" {% if current[1] == 'biography' %} class='current'{% endif %}>
+              Biography
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/studios" {% if current[1] == 'studios' %} class='current'{% endif %}>
+              Studio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/collaborations" {% if current[1] == 'collaborations' %} class='current'{% endif %}>
+              Collaborations
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/contact" {% if current[1] == 'contact' %} class='current'{% endif %}>
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
-      </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  
+</div>

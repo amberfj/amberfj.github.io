@@ -1,0 +1,30 @@
+.post {
+	text-align: left;
+	padding: 20px;
+
+	@include mq($from: lg) {
+		margin-left: 290px;
+		width: 680px;
+	}
+	
+
+	.hero__nav {
+		padding-bottom: 5px;
+		font-family: "Open Sans Condensed", "arial", sans-serif;
+	}
+	.slider-nav {
+		cursor: pointer;
+		display: inline-block;
+	}
+	.your-class img { // this name really needs to be changed!
+		max-height: 500px;
+		width: auto !important;
+		margin-bottom: 40px;
+		//height: 400px;
+		// width: 100%;
+	}
+
+	.post-title {
+		margin-bottom: 20px;
+	}
+}

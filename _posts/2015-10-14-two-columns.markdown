@@ -1,10 +1,9 @@
 ---
-layout: project-2c
+layout: page
 title:  "Two columns"
 year: 2018
-date:   2015-10-13 14:40:50
 categories: projects
-image: http://via.placeholder.com/220x150
+image: http://via.placeholder.com/300x400
 images:
  - pop-rocks_set2_wr_026.jpg: http://www.github.com/copperegg/mongo-scaling-demo
  - pop-rocks_set3_wr_020.jpg: http://www.github.com/copperegg/mongo-scaling-demo

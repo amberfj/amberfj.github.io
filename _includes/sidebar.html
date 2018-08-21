@@ -1,0 +1,22 @@
+{% assign current = page.url | append: '/' | downcase | split: '/' %}
+
+<!--<div class="container-fluid">-->
+  <header class="sidebar">
+    <nav>
+      <p class="title"><a href="{{site.baseurl}}/">Amber Frid-Jimenez</a></p>
+
+      <button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('collapsed')">☰</button>
+
+      <ul class="navbar-links collapsed">
+        <li><a href="/" 
+          {% unless current[1] %} class='current' {% endunless %}
+          {% if current[1] == 'projects' %}   class='current'{% endif %}>Selected Works</a></li>
+        <li><a href="/texts"   {% if current[1] == 'texts' %}   class='current'{% endif %}>Texts</a></li>
+        <li><a href="/biography"      {% if current[1] == 'biography' %}      class='current'{% endif %}>Biography</a></li>
+        <li><a href="/studios" {% if current[1] == 'studios' %} class='current'{% endif %}>Studio</a></li>
+        <li><a href="/collaborations" {% if current[1] == 'collaborations' %} class='current'{% endif %}>Collaborations</a></li>
+        <li><a href="/contact" {% if current[1] == 'contact' %} class='current'{% endif %}>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<!--</div>-->

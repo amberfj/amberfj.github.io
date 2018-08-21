@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="container-fluid home">
+    <!--<div class="row">
+        <div class="col-lg-2 col-1"></div>
+        <div class="col-lg-8 col-10">-->
+	      	<!--<div class="row justify-content-center justify-content-sm-start">-->
+	      	<div>
+		        {% for post in site.posts limit:1 %}
+		            <div class="project-home project-featured col-12">
+		                <div class="project-content">
+		                    <a href="{{ site.baseurl }}{{ post.url }}">
+		                        <div class="image-container">
+		                            <img src="{% if post.image-hd %}{{ post.image-hd }}{% else %}{{ post.image }}{% endif %}" alt="">
+		                        </div>
+		                        <p><span>{{post.title}} ({{post.year}})</span></p>
+		                    </a>
+		                </div>
+		            </div>
+		        {% endfor %}
+		        {% for post in site.posts offset:1 %}
+		        	<div class="project-home col-lg-4 col-sm-6 col-12">
+		        		<div class="project-content">
+		    		    	<a href="{{ site.baseurl }}{{ post.url }}">
+		                        <div class="image-container">
+		                        	<img src="{{ post.image }}" alt="">
+		                        </div>
+		                        <p><span>{{post.title}} ({{post.year}})</span></p>
+		    		    	</a>
+		        		</div>
+		        	</div>
+		        {% endfor %}
+	     	</div><!--
+	    </div>
+	    <div class="col-lg-2 col-1"></div>
+	</div>-->
+</div>

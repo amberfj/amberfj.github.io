@@ -2,20 +2,30 @@
 layout: default
 ---
 
-<div class="container-full page-banner-background">
-  <div class="container page-banner">
-    <h1>{{ page.title }}</h1>
-  </div>
+<div class="post">
+	{% if page.images.size > 0 %}
+		<div class="hero__nav">
+			<div class="slider-nav hero__prev js-hero-prev">
+				<div class="icon icon-prev">←&nbsp;</div>
+			</div>
+			<div class="slider-nav hero__next js-hero-next">
+				<div class="icon icon-next">&nbsp;→&nbsp;&nbsp;</div>
+			</div>
+			<span class="slider-nav pagingInfo"></span>
+		</div>
+		<div class="your-class">
+			{% for link_hash in page.images %}
+				{% for link in link_hash %}
+			    	<img src="/../assets/img/{{link[0]}}" alt="">
+		    	{% endfor %}
+		  	{% endfor %}
+		</div>
+	{% endif %}
+	<p class="post-title">
+		<b>{{ page.title }}</b>
+		{% if page.year %}<i>({{ page.year }})</i>{% endif %}
+	</p>
+	
+	{{ content }}
 </div>
 
-<div class="container-full page-background">
-  <div class="container">
-    <div class="page">
-      <div class="row">
-        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>

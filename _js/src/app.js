@@ -117,5 +117,6 @@ $slickElement.slick({
     dots: false,
     speed: 700,
     fade: true,
+    variableWidth: true,
     cssEase: 'linear'
 });
