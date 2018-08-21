@@ -1,15 +1,23 @@
+---
+---
+
+
 @import "vendor/vendor";
 /* Bootstrap */
 // @import "../node_modules/bootstrap/scss/bootstrap";
-@import 'bootstrap-custom';
-
-/* Font Awesome */
-$fa-font-path: "../fonts/FontAwesome";
-@import "../node_modules/font-awesome/scss/font-awesome";
+// @import 'bootstrap-custom';
+@import 'base/reset';
 
 /* Mixins */
 @import "mixins/rem";
 @import "mixins/transitions";
+@import "mixins/mq";
+
+@import 'base/fallback';
+
+/* Font Awesome */
+/*$fa-font-path: "../fonts/FontAwesome";
+@import "../node_modules/font-awesome/scss/font-awesome";*/
 
 /* Global */
 @import "base/global";
@@ -19,11 +27,9 @@ $fa-font-path: "../fonts/FontAwesome";
 
 /* Layout */
 @import "layout/header";
+@import "layout/post";
 @import "layout/footer";
-@import "layout/project";
 
-/* Components */
-@import "components/navbar";
 
 /* Typography */
-@import "typography/headings";
+// @import "typography/headings";

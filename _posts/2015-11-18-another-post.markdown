@@ -1,10 +1,10 @@
 ---
-layout: project
+layout: page
 title:  "Another post"
-date:   2015-10-13 14:40:50
 year: 2011
 categories: projects
-image: http://via.placeholder.com/320x150
+image: http://via.placeholder.com/200x300
+image-hd: http://via.placeholder.com/1000x600
 images:
  - pop-rocks_set2_wr_026.jpg: http://www.github.com/copperegg/mongo-scaling-demo
  - pop-rocks_set3_wr_020.jpg: http://www.github.com/copperegg/mongo-scaling-demo

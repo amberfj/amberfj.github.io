@@ -2,9 +2,11 @@
 <html>
   {% include head.html %}
   <body>
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+  	<div class="container root">
+        {% include sidebar.html %}
+				{{ content }}
+				{% include footer.html %}
+    </div>
     <script src="{{ root }}/js/dist/app.bundle.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
   </body>

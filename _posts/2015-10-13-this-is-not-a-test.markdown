@@ -1,11 +1,11 @@
 ---
-layout: project
+layout: page
 title:  "This is Not a Test"
 year: 2016
-date:   2015-10-13 14:40:50
 short_description: "Installation View, Mash Up: The Birth of Modern Culture, Vancouver Art Gallery, Vancouver Canada"
 categories: projects
-image: http://via.placeholder.com/320x150
+image: http://via.placeholder.com/200x200
+image-hd: http://via.placeholder.com/1000x600
 images:
  - demo.jpeg: http://www.github.com/copperegg/mongo-scaling-demo
  - demo1.png: http://www.github.com/copperegg/mongo-scaling-demo

@@ -1,0 +1,39 @@
+/* Global */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  // font-size: 18px;
+  line-height: 1.6;
+  font-family: "Noto Serif", serif;
+
+  padding-top: 30px;
+
+  @include mq($from: sm) {
+  	padding-top: 75px
+  }
+}
+
+// html {
+//   background-color: #ddd;
+// }
+
+img {
+  max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+a:not(:has(div)):hover, a:hover span {
+	border-bottom: 1px dotted;
+}
+

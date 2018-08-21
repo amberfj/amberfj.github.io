@@ -3,3 +3,6 @@
 
 # ignore compiled site
 /_site/
+
+# ignore cache
+/.sass-cache/

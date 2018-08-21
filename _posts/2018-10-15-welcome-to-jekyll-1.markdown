@@ -1,9 +1,8 @@
 ---
-layout: project
+layout: page
 title:  "Welcome to Jekyll 1"
-date:   2015-10-13 14:40:50
 categories: projects
-image: http://via.placeholder.com/220x150
+image: http://via.placeholder.com/300x180
 links:
  - demo.jpeg: http://www.github.com/copperegg/mongo-scaling-demo
  - demo1.png: http://www.github.com/copperegg/mongo-scaling-demo

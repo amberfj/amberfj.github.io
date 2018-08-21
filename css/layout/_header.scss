@@ -1,0 +1,78 @@
+/* Header */
+
+header {
+  padding: 0px 0px 40px 0px;
+  font-family: "Open Sans Condensed", "arial", sans-serif;
+  // @include rem(padding, 25px 0 20px 0);
+
+  float: left;
+  display: block;
+  position: relative;
+  padding: 20px 20px 40px 20px;
+  text-align: left;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  @include mq($from: lg) {
+    width: auto;
+    box-sizing: default;
+    padding: 20px 0px 30px 50px;
+  }
+
+  nav {
+    position: relative;
+
+    .hamburger {
+      font-size: 14pt;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      border: none;
+      fill: none;
+      outline: none;
+      cursor: pointer;
+
+      @include mq($from: lg) {
+        display: none;
+      }
+    }
+
+    a { color: #000000; }
+
+    p.title {
+      margin-bottom: 30px;
+      a {
+        color: #000000 !important;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    ul.navbar-links {
+      overflow: hidden;
+      // padding: 0;
+      // margin-bottom: 0;
+      //  margin-top: 20px;
+      li {
+        display: block !important;
+        list-style: none;
+
+        /*@include media-breakpoint-up(md) {
+          display: block;
+        }*/
+
+        /*a { margin-right: 15px }*/
+        a.current {
+          font-weight: bold;
+        }
+      }
+    }
+    @include mq($until: lg) {
+      ul.navbar-links.collapsed {
+        height: 0;
+      }
+    }
+  }
+  
+}
