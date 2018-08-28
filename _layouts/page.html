@@ -28,9 +28,10 @@ layout: default
 		  	{% endfor %}
 		</div>
 	{% endif %}
+	
 	<p class="post-title">
 		<b>{{ page.title }}</b>
-		{% if page.year %}<i>({{ page.year }})</i>{% endif %}
+		{% if page.year %} <i>({{ page.year }})</i> {% endif %}
 	</p>
 	
 	{{ content }}

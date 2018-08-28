@@ -3,9 +3,11 @@
 <!--<div class="container-fluid">-->
   <header class="sidebar">
     <nav>
-      <p class="title"><a href="{{site.baseurl}}/">Amber Frid-Jimenez</a></p>
+      <p class="title"><a href="{{ site.baseurl }}/">Amber Frid-Jimenez</a></p>
 
-      <button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('collapsed')">☰</button>
+      <button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('collapsed')">
+        <img src="assets/icons/hamburger_icon.svg">
+      </button>
 
       <ul class="navbar-links collapsed">
         <li>
@@ -15,21 +17,20 @@
             {{ site.data.navigation.home }}
           </a>
         </li>
-        <!-- {% for link in site.data.navigation.links %}
+        {% for link in site.data.navigation.links %}
           <li>
-            <a href="{{ link.href }}" {% if current[1] == '{{ link.href | remove: '/' }}' %} class='current'{% endif %}>
-              {% assign test = (current[1] == link.href | remove: '/' ) %}
-              {{ test }}
+            {% assign dir = link.href | remove: '/' %}
+            <a href="{{ link.href }}" {% if current[1] == dir %} class='current'{% endif %}>
               {{ link.name }}
               
             </a>
           </li>
-        {% endfor %}-->
+        {% endfor %}
         
-        <li><a href="/biography"      {% if current[1] == 'biography' %}      class='current'{% endif %}>Biography</a></li>
+        <!--<li><a href="/biography"      {% if current[1] == 'biography' %}      class='current'{% endif %}>Biography</a></li>
         <li><a href="/studio" {% if current[1] == 'studio' %} class='current'{% endif %}>Studio</a></li>
         <li><a href="/collaborations" {% if current[1] == 'collaborations' %} class='current'{% endif %}>Collaborations</a></li>
-        <li><a href="/contact" {% if current[1] == 'contact' %} class='current'{% endif %}>Contact</a></li>
+        <li><a href="/contact" {% if current[1] == 'contact' %} class='current'{% endif %}>Contact</a></li>-->
       </ul>
     </nav>
   </header>
