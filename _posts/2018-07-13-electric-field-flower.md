@@ -8,7 +8,6 @@ width: 500px
 slideshow:
  - image: flowers/Electric-field-of-a-flower-FLP-2018-sm.png
  
- 
 ---
 
 Above left:<br/>
@@ -20,8 +19,6 @@ Above right:<br/>
 The electric field of a flower II (oblique), 2018<br/>
 India ink burned on cardboard<br/>
 12 x 18 inches
-
-
 
 **NEWS FROM FLOWERS**<br/>
 First Annual Saltspring Island Flower Show
