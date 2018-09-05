@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% for post in site.posts offset:0 %}
+	<div class="project-home">
+		<div class="project-content">
+	    	<a href="{{ site.baseurl }}{{ post.url }}">
+                <div class="image-container">
+                	<img src="/../assets/img/{{ post.image }}" alt=""
+                		{% if post.width %} width="{{ post.width }}" {% endif %}
+                		{% if post.height %} height="{{ post.height }}" {% endif %}>
+                </div>
+                <!--<p><span>{{post.title}} ({{post.year}})</span></p>-->
+	    	</a>
+		</div>
+	</div>
+{% endfor %}
