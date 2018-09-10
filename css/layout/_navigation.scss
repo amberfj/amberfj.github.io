@@ -2,7 +2,7 @@
 
 header {
   background-color: #FFFFFF;
-  padding: 0px 0px 40px 0px;
+  // padding: 0px 0px 40px 0px;
   font-family: "Open Sans Condensed", "arial", sans-serif;
   font-size: .9em;
   // @include rem(padding, 25px 0 20px 0);
@@ -27,15 +27,19 @@ header {
     position: relative;
 
     .hamburger {
-      font-size: 14pt;
       position: absolute;
-      top: 0;
+      top: 5px;
       right: 0;
 
       border: none;
       fill: none;
       outline: none;
       cursor: pointer;
+
+      img {
+        width: 14px;
+        height: 14px;
+      }
 
       @include mq($from: lg) {
         display: none;

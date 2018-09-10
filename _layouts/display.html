@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="display">
+	{% for item in page.items %}
+		<div class="project-home">
+			<div class="project-content">
+				{% if item.url %}
+		    	<a href="{{ site.baseurl }}{{ item.url }}">
+		    	{% endif %}
+	                <div class="image-container">
+	                	<img src="/../assets/img/{{ item.image }}" alt=""
+	                		{% if item.width %} width="{{ item.width }}" {% endif %}
+	                		{% if item.height %} height="{{ item.height }}" {% endif %}>
+	                </div>
+		    	{% if item.url %}
+		    	</a>
+		    	{% endif %}
+			</div>
+		</div>
+	{% endfor %}
+</div>
