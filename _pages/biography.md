@@ -2,8 +2,8 @@
 layout: page
 title: Biography
 slideshow: 
-- bio/AFJD_afj-200.jpg
-width: 200
+- image: bio/AFJD_afj-200.jpg
+  width: 200
 permalink: /biography/
 ---
 
