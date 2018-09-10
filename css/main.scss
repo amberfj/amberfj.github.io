@@ -2,13 +2,11 @@
 ---
 
 /* Mixins */
-@import "mixins/rem";
 @import "mixins/transitions";
 @import "mixins/mq";
 
-@import 'base/fallback';
-
 /* Global */
+@import 'base/container';
 @import "base/global";
 
 /* Page */

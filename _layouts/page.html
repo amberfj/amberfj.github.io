@@ -2,9 +2,16 @@
 layout: default
 ---
 
+<!-- Post page, with slideshow and text -->
+
 <div class="post">
+	<!-- Slideshow only appears if it contains at least one image -->
 	{% if page.slideshow.size > 0 %}
+
+		<!-- Arrows only appear if there is more than one image in the slideshow -->
 		{% if page.slideshow.size > 1 %}
+
+			<!-- Slideshow navigation arrows -->
 			<div class="slide-controller">
 				<div class="prev-slide">
 					<div class="icon icon-prev">←&nbsp;</div>
@@ -15,6 +22,8 @@ layout: default
 				<span class="paging-info"></span>
 			</div>
 		{% endif %}
+
+		<!-- Slideshow element containing all of the images -->
 		<div class="slideshow">
 			{% for slide in page.slideshow %}
 				<div {% if slide.duration %} data-duration="{{ slide.duration }}" {% endif %}>
@@ -27,13 +36,16 @@ layout: default
 				</div>
 			{% endfor %}
 		</div>
+		
 	{% endif %}
 	
+	<!-- Title and year -->
 	<p class="post-title">
 		<b>{{ page.title }}</b>
 		{% if page.year %} <i>({{ page.year }})</i> {% endif %}
 	</p>
 	
+	<!-- Main page content -->
 	{{ content }}
 </div>
 
