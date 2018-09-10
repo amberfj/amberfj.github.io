@@ -1,0 +1,29 @@
+$mq-breakpoints: (
+	sm:  576px,
+	md:  768px,
+	lg:  992px,
+	xl:  1200px
+);
+
+.container {
+	width: auto;
+	max-width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+@include mq($from: sm) {
+	.container { width: 576px }
+}
+
+@include mq($from: md) {
+	.container { width: 720px }
+}
+
+@include mq($from: lg) {
+	.container { width: 1170px }
+}
+
+@include mq($from: xl) {
+	.container { width: 1170px }
+}

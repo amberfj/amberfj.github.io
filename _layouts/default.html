@@ -1,18 +1,20 @@
+<!-- The default template defines the basic HTML configuration accross all pages -->
+
 <!DOCTYPE html>
 <html>
   {% include head.html %}
 
-  <body {% if page.background %}
-    style="background-image: url('/../assets/img/{{ page.background}}')"
-  {% endif %}>
+  <!-- Add background image if it is specified in the page's metadata -->
+  <body {% if page.background %} style="background-image: url('/../assets/img/{{ page.background}}')" {% endif %}>
 
+  	<!-- Main container of the website -->
     <div class="container root">
         {% include navigation.html %}
 				{{ content }}
 				{% include footer.html %}
     </div>
 
-
+    <!-- Javascript -->
     <script src="{{ root }}/js/main.js"></script>
   </body>
 </html>

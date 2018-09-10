@@ -2,17 +2,18 @@
 layout: default
 ---
 
-{% for post in site.posts offset:0 %}
+<!-- The home page layout creates (image) links to all the posts in the `_posts` directory; the images will wrap around the navigation block in the same way that text wraps around a floating image -->
+
+{% for post in site.posts %}
 	<div class="project-home">
 		<div class="project-content">
-	    	<a href="{{ site.baseurl }}{{ post.url }}">
-                <div class="image-container">
-                	<img src="/../assets/img/{{ post.image }}" alt=""
-                		{% if post.width %} width="{{ post.width }}" {% endif %}
-                		{% if post.height %} height="{{ post.height }}" {% endif %}>
-                </div>
-                <!--<p><span>{{post.title}} ({{post.year}})</span></p>-->
-	    	</a>
+			<a href="{{ site.baseurl }}{{ post.url }}">
+				<div class="image-container">
+					<img src="/../assets/img/{{ post.image }}" alt=""
+						{% if post.width %} width="{{ post.width }}" {% endif %}
+						{% if post.height %} height="{{ post.height }}" {% endif %}>
+				</div>
+			</a>
 		</div>
 	</div>
 {% endfor %}
