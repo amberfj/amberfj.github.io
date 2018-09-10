@@ -1,37 +1,36 @@
-{% assign current = page.url | append: '/' | downcase | split: '/' %}
+{% assign current = page.url | downcase | split: '/' %}
 
-<!--<div class="container-fluid">-->
-	<header class="sidebar">
-		<nav>
-			<p class="title"><a href="{{ site.baseurl }}/">Amber Frid-Jimenez</a></p>
 
-			<button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('collapsed')">
-				<img src="/../assets/icons/hamburger_icon.svg">
-			</button>
+<header class="sidebar">
+	<nav>
+		<!-- Name; redirects to home page -->
+		<p class="title"><a href="{{ site.baseurl }}/">Amber Frid-Jimenez</a></p>
 
-			<ul class="navbar-links collapsed">
+		<!-- Hamburger icon; opens and closes menu on mobile devices -->
+		<button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('collapsed')">
+			<img src="/../assets/icons/hamburger_icon.svg">
+		</button>
+
+		<!-- Navigation links; pulled from `_data/navigation.yml`, new links should be added there -->
+		<ul class="navbar-links collapsed">
+			<li>
+				<a href="/" 
+				{% unless current[1] %} class='current' {% endunless %}
+				{% if current[1] == 'projects' %}   class='current'{% endif %}>
+					{{ site.data.navigation.home }}
+				</a>
+			</li>
+			
+			{% for link in site.data.navigation.links %}
 				<li>
-					<a href="/" 
-					{% unless current[1] %} class='current' {% endunless %}
-					{% if current[1] == 'projects' %}   class='current'{% endif %}>
-						{{ site.data.navigation.home }}
+					{% assign dir = link.href | remove: '/' %}
+					<a href="{{ link.href }}" {% if current[1] == dir %} class='current'{% endif %}>
+						{{ link.name }}
+						
 					</a>
 				</li>
-				{% for link in site.data.navigation.links %}
-					<li>
-						{% assign dir = link.href | remove: '/' %}
-						<a href="{{ link.href }}" {% if current[1] == dir %} class='current'{% endif %}>
-							{{ link.name }}
-							
-						</a>
-					</li>
-				{% endfor %}
-				
-				<!--<li><a href="/biography"      {% if current[1] == 'biography' %}      class='current'{% endif %}>Biography</a></li>
-				<li><a href="/studio" {% if current[1] == 'studio' %} class='current'{% endif %}>Studio</a></li>
-				<li><a href="/collaborations" {% if current[1] == 'collaborations' %} class='current'{% endif %}>Collaborations</a></li>
-				<li><a href="/contact" {% if current[1] == 'contact' %} class='current'{% endif %}>Contact</a></li>-->
-			</ul>
-		</nav>
-	</header>
-<!--</div>-->
+			{% endfor %}
+			
+		</ul>
+	</nav>
+</header>
