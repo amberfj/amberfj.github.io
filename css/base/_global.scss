@@ -12,11 +12,12 @@ body, html {
 }
 
 body {
-  // 
+  // Create whitespace at top of page
+  padding-top: 30px;
+
+  // Text settings
   line-height: 1.6;
   font-family: "Noto Serif", serif;
-
-  padding-top: 30px;
 
   // Positioning for background image
   background-position: center;
@@ -31,6 +32,9 @@ body {
 
 img {
   max-width: 100%;
+}
+img.thumbnail {
+  height: 40px;
 }
 
 a {
