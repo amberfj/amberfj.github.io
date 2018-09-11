@@ -16,7 +16,7 @@ slideshow:
    caption: Spreads from the catalog MashUp - The Birth of Modern Culture (2016), including images of my work in the introduction of the section entitled “The Digital  Age An Introduction.”
 
 ---
-“Anonymous Unarchive” is a book chapter that I was commissioned to write for the exhibition catalogue for Mashup. My contribution consists of an essay on the state of the image in the age of the internet and data collection. It includes an interview with leading anthropologist Gabriella Coleman and a text that contextualizes the power and particularities of digital image culture in the construction of charismatic online figures. The book chapter includes original images of art works and found images. Other contributors include John Baldessari, Nicolas Bourriaud, Michael Darling, Olia Lialina, Kathy Slade among others. The catalog was published by the Vancouver Art Gallery in collaboration with Black Dog Publishing in the UK. 
+“Anonymous Unarchive” is a book chapter that I was commissioned to write for the exhibition catalogue for *Mashup*. My contribution consists of an essay on the state of the image in the age of the internet and data collection. It includes an interview with leading anthropologist Gabriella Coleman and a text that contextualizes the power and particularities of digital image culture in the construction of charismatic online figures. The book chapter includes original images of art works and found images. Other contributors include John Baldessari, Nicolas Bourriaud, Michael Darling, Olia Lialina, Kathy Slade among others. The catalog was published by the Vancouver Art Gallery in collaboration with Black Dog Publishing in the UK. 
 
 An excerpt of “Anonymous Unarchive” follows:
 

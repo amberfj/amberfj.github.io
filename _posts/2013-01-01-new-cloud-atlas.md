@@ -13,7 +13,7 @@ slideshow:
 
 ---
 
-New Cloud Atlas: Data as Place is an open-source participatory online platform that maps physical infrastructure of the Internet. The project is a global effort to map each data place that makes up the cloud in an open and accountable way. We have set out to find and map each warehouse data centre, each internet exchange, each connecting cable and switch. The goal is to observe anything of physical significance in the operation of the cloud and record it for everyone to see and use. 
+*New Cloud Atlas: Data as Place* is an open-source participatory online platform that maps physical infrastructure of the Internet. The project is a global effort to map each data place that makes up the cloud in an open and accountable way. We have set out to find and map each warehouse data centre, each internet exchange, each connecting cable and switch. The goal is to observe anything of physical significance in the operation of the cloud and record it for everyone to see and use. 
 
 Excerpt from the About page online:
 
@@ -21,5 +21,5 @@ This project offers an assessment of the physical infrastructure of the Big Data
 
 Owing to their key role in the flow of information as well as their extensive energy requirements, data centres have been the subject of territorial disputes and international conflict. The 500,000 data centre locations spread across the globe can be read as barometers of contemporary geopolitical and economic forces. The energy required to operate these installations collectively outranks the energy demand of all but five countries. At the intersection of global politics and free-market forces, these locations are determined by a balance of favourable data regulation, access to affordable energy power, and tax incentives created by local and sovereign governments. Computation and energy for cooling are paramount, but the physical and regulatory freedom to operate are no less important: an overly controlling government or the absence of sufficient connection infrastructure renders sites less viable. 
 
-We use OpenStreetMap and therefore the Open Data Commons Open Database Licence (ODbL) to ensure that the work of mapping the global cloud infrastructure is kept openly accessible. New Cloud Atlas data is available to developers who want to build on the resources of the vibrant OpenStreetMap community (© OpenStreetMap contributors). Changes made to the OSM datbase gets parsed and imported into the New Cloud Atlas at 15 minute intervals. Contributors add to the New Cloud Atlas by using our customised OSM editor.
+We use OpenStreetMap and therefore the Open Data Commons Open Database Licence (ODbL) to ensure that the work of mapping the global cloud infrastructure is kept openly accessible. *New Cloud Atlas* data is available to developers who want to build on the resources of the vibrant OpenStreetMap community (© OpenStreetMap contributors). Changes made to the OSM datbase gets parsed and imported into the *New Cloud Atlas* at 15 minute intervals. Contributors add to the New Cloud Atlas by using our customised OSM editor.
 

@@ -32,11 +32,11 @@ slideshow:
 
 ---
 
-Liche’s Liant was a series of objects that I developed at the invitation of curator David Bennewith for his exhibition *Latent Stare*, at Casco Office for Art Design and Theory in Rotterdam. Other  contributions to the exhibition included Hinrich Sachs, Paul Elliman, Runa Islam, Peter Verheul, Luke Wood, Herman Damen, Karl Nawrot, Jo De Baerdemaeker, Paul Chan, Vasilis Marmatakis, Ji Lee, Christoph Knoth, Frank Adebiaye, Joseph Churchward, and Felix Weigand.
+*Liche’s Liant* was a series of objects that I developed at the invitation of curator David Bennewith for his exhibition *Latent Stare*, at Casco Office for Art Design and Theory in Rotterdam. Other  contributions to the exhibition included Hinrich Sachs, Paul Elliman, Runa Islam, Peter Verheul, Luke Wood, Herman Damen, Karl Nawrot, Jo De Baerdemaeker, Paul Chan, Vasilis Marmatakis, Ji Lee, Christoph Knoth, Frank Adebiaye, Joseph Churchward, and Felix Weigand.
 
-Liche’s Liant consisted of four images printed on dibond that take as their point of departure the Liant typeface, which was developed by Ingrid Liche for the pharmaceutical giant Weleda in the 1976.  Liant played an important role in the visual identity of the company as it grew into a prominent global brand after 1976. The relationship of Weleda, a for-profit company, to Steiner’s spiritual philosophy raises questions about the connection of entrepreneurial to spiritual ambitions and the role design plays in bridging the two.
+*Liche’s Liant* consisted of four images printed on dibond that take as their point of departure the Liant typeface, which was developed by Ingrid Liche for the pharmaceutical giant Weleda in the 1976.  Liant played an important role in the visual identity of the company as it grew into a prominent global brand after 1976. The relationship of Weleda, a for-profit company, to Steiner’s spiritual philosophy raises questions about the connection of entrepreneurial to spiritual ambitions and the role design plays in bridging the two.
 
-The exhibition text for Latent Stare describes the exhibition  as follows:
+The exhibition text for *Latent Stare* describes the exhibition  as follows:
  
 *Latent Stare* is an exhibition project that looks at the discipline of type- design through a particular critical lens, assembled by David Bennewith who has been working since 2010 on the subject as an advising researcher of Jan van Eyck Academie...
   
@@ -45,7 +45,7 @@ The exhibition text for Latent Stare describes the exhibition  as follows:
 The exhibition is organized in a spatial structure designed by artist Olga Balema, who has produced a series of repeated skeletal forms, that appear to maintain both a script and an ideographic sign and which, in turn, connect, support, strangle and separate the works. 
 My contribution is described in a text that I wrote to accompany the piece in the exhibition catalogue:
 
-What happens when spirituality is commodified? 
+*What happens when spirituality is commodified?*
 
 In 1976 Weleda AG hired Austrian designer Ingrid Liche to develop a typeface for the company’s identity and product packaging. Weleda is a German natural cosmetics company founded by Rudolf Steiner and Ita Wegman on the principles of Anthroposophy, Steiner’s philosophy that attempts to integrate spirituality with the scientific study of humans and their relation to nature. Liant, the typeface that Liche developed for Weleda, has been used by the company subsequently to promote its line of natural skin care, baby care and medicinal products. Liant played an important role in the visual identity of the company as it grew into a prominent global brand, as well as the aesthetic of the natural cosmetics industry since 1976. 
 
