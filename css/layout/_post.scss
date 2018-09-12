@@ -31,8 +31,10 @@
 		margin-bottom: 40px;
 	}
 
-	.slideshow > * { // this name really needs to be changed!
+	.slideshow > * {
 		position: absolute;
+
+		// images in slideshow default to being invisible
 		opacity: 0;
 		transition: opacity .25s linear;
 	}
@@ -40,17 +42,20 @@
 	.slideshow > *.visible { opacity: 1 }
 
 	.slideshow img {
+		// prevent images from becoming too large
 		max-height: 500px;
 		max-width: 100%;
 	}
 
 	.slideshow .caption {
+		// small grey caption below image
 		font-family: "Open Sans Condensed", "arial", sans-serif;
 		font-size: 0.8em;
 		color: #BBBBBB;
 	}
 
 	.post-title {
+		// adds some space between title and main content
 		margin-top: 0;
 		margin-bottom: 20px;
 	}

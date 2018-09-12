@@ -1,8 +1,12 @@
 /* Home Page */
+
 .container.root {
+	// center align images to prevent from lining up edge to edge
+	// adds a nice-looking unorderliness
 	text-align: center;
 }
 
+// full-screen display positioned behind navigation block
 .display {
 	padding: 30px;
 	position: absolute;
@@ -11,25 +15,23 @@
 	width: 100%; height: 100%;
 }
 
+// display item used on homepage and display template
 .display-item {
 	display: inline-block;
 	padding: 20px;
+	// vertical align images to prevent from lining up edge to edge
+	// adds a nice-looking unorderliness
 	vertical-align: middle;
 
-	a {
-		border-bottom: none;
-	}
+	// prevent hover underline on images
+	a { border-bottom: none }
 
 	.image-container {
 		display: inline-block;
-		@include mq($until: sm) {
-			width: 100%;
-		}
-		
 		position: relative;
 
-		img {
-			margin: auto;
-		}
+		// center image on mobile
+		@include mq($until: sm) { width: 100% }
+		img { margin: auto }
 	}
 }
