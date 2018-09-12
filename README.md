@@ -27,10 +27,10 @@ Navigation links can be found and modified in `_data/navigation.yml`.
 | `height: 300`                  | sets width of front page image            |
 | `slideshow:`                   | adds slideshow                            |
 | `- image: folder/image.png`    | adds image to slideshow                   |
-| <pre>`  width: 300`</pre>      | sets width of image in slideshow          |
-| <pre>`  height: 300`</pre>     | sets height of image in slideshow         |
-| <pre>`  caption: text`</pre>   | sets caption of image in slideshow        |
-| <pre>`  duration: 5000`</pre>  | sets duration of slide (milliseconds)     |
+| &npsp; `  width: 300`          | sets width of image in slideshow          |
+| &npsp; `  height: 300`         | sets height of image in slideshow         |
+| &npsp; `  caption: text`       | sets caption of image in slideshow        |
+| &npsp; `  duration: 5000`      | sets duration of slide (milliseconds)     |
 
 #### `display.html`
 
@@ -43,9 +43,9 @@ Navigation links can be found and modified in `_data/navigation.yml`.
 | `height: 300`                  | sets width of front page image            |
 | `items:`                       | specifies images shown in display         |
 | `- image: folder/image.png`    | adds image to display                     |
-| <pre>`  width: 300`</pre>      | sets width of image in display            |
-| <pre>`  height: 300`</pre>     | sets height of image in display           |
-| <pre>`  url: http://...`</pre> | links image with local or external url    |
+| &npsp; `  width: 300`          | sets width of image in display            |
+| &npsp; `  height: 300`         | sets height of image in display           |
+| &npsp; `  url: http://...`     | links image with local or external url    |
 
 ## CSS
 
