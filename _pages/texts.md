@@ -4,4 +4,16 @@ title: Texts
 permalink: /texts/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu risus in est varius vestibulum sit amet et turpis. Phasellus ac finibus erat. Vestibulum quis dolor justo. Nam vitae justo et quam fringilla sagittis. Suspendisse dapibus feugiat consequat. Suspendisse facilisis vestibulum leo eu auctor. Curabitur non odio in ex posuere varius. Nunc consectetur, sem vitae porta dictum, tortor turpis congue velit, at ullamcorper ex ex sit amet dui. Sed vitae placerat dolor, sed condimentum ipsum.  Curabitur non odio in ex posuere varius. Nunc consectetur, sem vitae porta dictum, tortor turpis congue velit, at ullamcorper ex ex sit amet dui. Sed vitae placerat dolor, sed condimentum ipsum.
+<table>
+    <!-- HTML in markdown because (a) fits with page layout (b) to be able to add paragraphs above or below list of texts -->
+    {% for post in site.posts %}
+        <tr>
+            <td><a href="{{ site.baseurl }}{{ post.url }}">
+                <img class="thumbnail" src="/../assets/img/{{ post.image }}" height="40px">
+            </a></td>
+            <td><a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }}
+            </a></td>
+        </tr>
+    {% endfor %}
+</table>
