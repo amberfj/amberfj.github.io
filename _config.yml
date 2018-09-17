@@ -1,5 +1,7 @@
 # Site settings
+
 title: Amber Frid-Jimenez
+description: 
 #email: your-email@domain.com
 #description: > # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
@@ -28,4 +30,10 @@ keep_files:
 #  - _site/css
   - _site/js
 
-include: ['_pages']
+collections:
+  posts:
+    output: true
+  texts:
+    output: true
+
+include: ['_pages', '_texts']

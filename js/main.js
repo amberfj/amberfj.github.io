@@ -1,9 +1,11 @@
 
+// Javascript code to handle slideshow
+
 window.addEventListener('load', function() {
 	// Utility functions
 	function $(selector) { return document.querySelector(selector) }
 	function $$(selector) { return [].slice.call(document.querySelectorAll(selector)) }
-	function mod(n, m) { return ((n % m) + m) % m }
+	function mod(n, m) { return ((n % m) + m) % m } // fixed mod function, loops if below 0
 
 	// Retrieve important elements from DOM
 	var slideshow = $('.slideshow');
@@ -51,8 +53,10 @@ window.addEventListener('load', function() {
 		if(nextButton != undefined) nextButton.addEventListener('click', nextSlide);
 		if(nextButton != undefined) prevButton.addEventListener('click', prevSlide);
 
+		
 		slideshow.addEventListener('click', nextSlide);
 
+		// initialize with first slide
 		setSlide(0);
 	}
 })
