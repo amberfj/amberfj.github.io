@@ -27,7 +27,7 @@ layout: default
 		<div class="slideshow">
 			{% for slide in page.slideshow %}
 				<div {% if slide.duration %} data-duration="{{ slide.duration }}" {% endif %}>
-					<img src="/../assets/img/{{ slide.image }}" alt=""
+					<img src="/../assets/images/{{ slide.image }}" alt=""
 						{% if slide.width  %} width ="{{ slide.width  }}" {% endif %}
 						{% if slide.height %} height="{{ slide.height }}" {% endif %}>
 					{% if slide.caption %}

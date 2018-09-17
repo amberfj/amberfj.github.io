@@ -9,7 +9,7 @@ permalink: /texts/
     {% for post in site.texts %}
         <tr>
             <td><a href="{{ site.baseurl }}{{ post.url }}">
-                <img class="thumbnail" src="/../assets/img/{{ post.image }}" height="40px">
+                <img class="thumbnail" src="/../assets/images/{{ post.image }}" height="40px">
             </a></td>
             <td><a href="{{ site.baseurl }}{{ post.url }}">
                 {{ post.title }}
