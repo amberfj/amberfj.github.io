@@ -15,6 +15,7 @@ Navigation links can be found and modified in `_data/navigation.yml`.
 | `layout: page`         | specifies layout for a markdown file              |
 | `title: The Title`     | used in `<title>` tag and on the page layout      |
 | `categories: projects` | used in url (e.g. `amberfj.com/projects/...`)     |
+| `homepage: true`       | whether post should be part of _selected works_.  |
 
 #### `page.html`
 
@@ -27,10 +28,10 @@ Navigation links can be found and modified in `_data/navigation.yml`.
 | `height: 300`                  | sets width of front page image            |
 | `slideshow:`                   | adds slideshow                            |
 | `- image: folder/image.png`    | adds image to slideshow                   |
-| `​ ​ width: 300`          | sets width of image in slideshow                 |
-| `​ ​ height: 300`         | sets height of image in slideshow                |
-| `​ ​ caption: text`       | sets caption of image in slideshow               |
-| `​ ​ duration: 5000`      | sets duration of slide (milliseconds)            |
+| `​ ​ width: 300`                 | sets width of image in slideshow          |
+| `​ ​ height: 300`                | sets height of image in slideshow         |
+| `​ ​ caption: text`              | sets caption of image in slideshow        |
+| `​ ​ duration: 5000`             | sets duration of slide (milliseconds)     |
 
 #### `display.html`
 
@@ -43,9 +44,9 @@ Navigation links can be found and modified in `_data/navigation.yml`.
 | `height: 300`                  | sets width of front page image            |
 | `items:`                       | specifies images shown in display         |
 | `- image: folder/image.png`    | adds image to display                     |
-| `​ ​ width: 300`          | sets width of image in display                   |
-| `​ ​ height: 300`         | sets height of image in display                  |
-| `​ ​ url: http://...`     | links image with local or external url           |
+| `​ ​ width: 300`                 | sets width of image in display            |
+| `​ ​ height: 300`                | sets height of image in display           |
+| `​ ​ url: http://...`            | links image with local or external url    |
 
 ## CSS
 

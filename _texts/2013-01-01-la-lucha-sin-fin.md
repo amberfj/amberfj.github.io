@@ -3,10 +3,12 @@ layout: page
 title:  "La Lucha Sin Fin: On Charismatics and Its Persuasive Technologies"
 year: 2013
 categories: texts
+
+homepage: true
 image: la-lucha-sin-fin/la-lucha-sin-fin-cover.jpg
 width: 400
-slideshow:
 
+slideshow:
 - image: la-lucha-sin-fin/la-lucha-sin-fin-spread-0.jpg
 - image: la-lucha-sin-fin/la-lucha-sin-fin-spread-1.jpg
 - image: la-lucha-sin-fin/la-lucha-sin-fin-spread-2.jpg

@@ -3,8 +3,11 @@ layout: page
 title:  "Lightbeam"
 year: 2016
 categories: projects
+
+homepage: true
 image: lightbeam/lightbeam-screenshot.jpg
 width: 600
+
 slideshow:
  - image: lightbeam/lightbeam-0.jpg
  - image: lightbeam/lightbeam-1.jpg

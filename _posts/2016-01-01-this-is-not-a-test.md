@@ -3,8 +3,11 @@ layout: page
 title:  "This is Not a Test"
 year: 2016
 categories: projects
+
+homepage: true
 image: this-is-not-a-test/this-is-not-a-test-bunny.png
 width: 400
+
 slideshow:
  - image: this-is-not-a-test/this-is-not-a-test-0.jpg
    caption: Installation shot, This Is Not a Test (2016)

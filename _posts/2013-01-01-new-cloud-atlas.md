@@ -3,8 +3,11 @@ layout: page
 title:  "New Cloud Atlas: Data as Place"
 year: 2013
 categories: projects
+
+homepage: true
 image: new-cloud-atlas/new-cloud-atlas-information-everything.jpg
 width: 400
+
 slideshow:
  - image: new-cloud-atlas/new-cloud-atlas-0.jpg
  - image: new-cloud-atlas/new-cloud-atlas-1.jpg

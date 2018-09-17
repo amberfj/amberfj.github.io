@@ -4,6 +4,7 @@ title:  "Burning Ballet Mecanique"
 year: 2018
 categories: projects
 
+homepage: true
 image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique-training.png
 width: 450
 

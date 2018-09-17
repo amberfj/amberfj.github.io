@@ -3,8 +3,11 @@ layout: page
 title:  "Participedia"
 year: 2016
 categories: projects
+
+homepage: true
 image: participedia/participedia-screenshot-3.jpg
 width: 600
+
 slideshow:
  - image: participedia/participedia-screenshot-0.jpg
    caption: Participedia alpha site launched in 2011.

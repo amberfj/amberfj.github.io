@@ -3,8 +3,11 @@ layout: page
 title:  "Mycelium Mockup"
 year: 2015
 categories: projects
+
+homepage: true
 image: mycelium-mockup/mycelium-mockup-0.jpg
 width: 600
+
 slideshow:
  - image: mycelium-mockup/mycelium-mockup-0.jpg
  - image: mycelium-mockup/mycelium-mockup-1.jpg

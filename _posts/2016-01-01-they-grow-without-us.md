@@ -3,8 +3,11 @@ layout: page
 title:  "They Grow Without Us, Part 1"
 year: 2016
 categories: projects
+
+homepage: true
 image: they-grow-without-us/they-grow-without-us-0.jpg
 width: 600
+
 slideshow:
  - image: they-grow-without-us/they-grow-without-us-install-0.jpg
  - image: they-grow-without-us/they-grow-without-us-install-1.jpg

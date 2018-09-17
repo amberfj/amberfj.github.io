@@ -4,6 +4,7 @@ title:  "Data Is Politcal: Art, Design and the Politics of Information"
 year: 2012
 categories: projects
 image: data-is-political/data-is-political-poster.png
+homepage: true
 width: 400
 slideshow:
 

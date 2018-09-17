@@ -3,8 +3,11 @@ layout: page
 title:  "Antarctica World Passport"
 year: 2010-12
 categories: projects
+
+homepage: true
 image: antarctica/antarctica1.jpg
 width: 400
+
 slideshow:
  - image: antarctica/antarctica1.jpg
  - image: antarctica/antarctica2.jpg

@@ -3,8 +3,11 @@ layout: page
 title:  "Burning Ballet Mecanique"
 year: 2018
 categories: projects
+
+homepage: true
 image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique_walk-221.gif
 width: 450
+
 slideshow:
  - image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique-training.png
  - image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique_walk-221.gif

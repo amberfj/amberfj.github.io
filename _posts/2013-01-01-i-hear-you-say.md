@@ -3,8 +3,11 @@ layout: page
 title:  "I Hear You Say"
 year: 2013
 categories: projects
+
+homepage: true
 image: i-hear-you-say/i-hear-you-say-0.jpg
 width: 400
+
 slideshow:
  - image: i-hear-you-say/i-hear-you-say-0.jpg 
  - image: i-hear-you-say/i-hear-you-say-1.jpg 

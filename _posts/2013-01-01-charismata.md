@@ -3,8 +3,11 @@ layout: page
 title:  "Charismata"
 year: 2013
 categories: projects
+
+homepage: true
 image: charismata/charismata-2.jpg
 width: 600
+
 slideshow:
  - image: charismata/charismata-0.jpg
    caption: Karollinska Remake, Lightjet photographs, 24 x 24 inches, 2013

@@ -3,8 +3,11 @@ layout: page
 title:  "Anonymous Unarchive"
 year: 2016
 categories: projects
+
+homepage: true
 image: anonymous-unarchive/anonymous-unarchive-5.jpg
 width: 400
+
 slideshow:
  - image: anonymous-unarchive/anonymous-spread-1.jpg
    caption: Spreads from the catalog MashUp - The Birth of Modern Culture (2016), including images of my work in the introduction of the section entitled “The Digital  Age An Introduction.”

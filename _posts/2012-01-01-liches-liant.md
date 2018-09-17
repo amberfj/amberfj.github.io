@@ -3,10 +3,12 @@ layout: page
 title:  "Liche's Liant"
 year: 2012
 categories: projects
+
+homepage: true
 image: liches-liant/liches-liant-0.jpg
 width: 600
-slideshow:
 
+slideshow:
 - image: liches-liant/liches-liant-0.jpg
   caption: Installation shot, *Latent Stare*, curated by David Bennewith at Casco Office for Art, Design and Theory (Rotterdam).
 - image: liches-liant/liches-liant-1.jpg
