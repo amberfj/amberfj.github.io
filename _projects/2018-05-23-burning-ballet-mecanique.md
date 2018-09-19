@@ -22,3 +22,5 @@ Burning ballet mécanique, 2018<br/>
 Video, self, burnt ink on plywood<br/>
 16 min, 190.5 x 203.2 cm<br />
 Courtesy of the artist<br />
+
+See more [here](/projects/burning-ballet-mecanique-exploded.html)
