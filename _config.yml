@@ -31,9 +31,9 @@ keep_files:
   - _site/js
 
 collections:
-  posts:
+  projects:
     output: true
   texts:
     output: true
 
-include: ['_pages', '_texts']
+include: ['_pages', '_texts', '_projects']

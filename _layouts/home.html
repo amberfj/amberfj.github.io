@@ -4,7 +4,7 @@ layout: default
 
 <!-- The home page layout creates (image) links to all the posts tagged with `homepage: true`; the images will wrap around the navigation block in the same way that text wraps around a floating image -->
 
-{% assign all_posts = site.posts | concat: site.texts | sort: 'date' | reverse %}
+{% assign all_posts = site.projects | concat: site.texts | sort: 'date' | reverse %}
 
 <!-- Selected works contains all points which have set `homepage: true` -->
 {% assign selected_works = all_posts | where_exp: "post", "post.homepage" %}
