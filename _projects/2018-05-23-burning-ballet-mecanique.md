@@ -23,4 +23,4 @@ Video, self, burnt ink on plywood<br/>
 16 min, 190.5 x 203.2 cm<br />
 Courtesy of the artist<br />
 
-See more [here](/projects/burning-ballet-mecanique-exploded.html)
+See more [here](/projects/2018-05-23-burning-ballet-mecanique-exploded.html)
