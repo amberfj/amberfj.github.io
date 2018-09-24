@@ -23,20 +23,25 @@ header {
     position: relative;
 
     .hamburger {
+      cursor: pointer;
+      
+      // position at far right of header bar
       position: absolute;
       top: 5px;
       right: 0;
 
+      // remove default button styles
       border: none;
-      fill: none;
       outline: none;
-      cursor: pointer;
+      background: none; // prevent grey background on mobile
 
+      // set the size of the icon
       img {
         width: 14px;
         height: 14px;
       }
 
+      // hide the icon on screens of size large (lg; 992px) or bigger
       @include mq($from: lg) {
         display: none;
       }
