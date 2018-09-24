@@ -5,7 +5,7 @@ var s = function( p ) {
 
 	p.setup = function() {
 		p.background(255);
-		p.createCanvas(400,400);
+		p.createCanvas(300,300);
 		p.fill(255);
 		p.noStroke();
 		tree = new RootTree(0, 0, p.width, p.height, p.random(0,1));
