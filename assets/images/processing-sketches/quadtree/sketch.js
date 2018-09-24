@@ -14,9 +14,11 @@ var s = function( p ) {
 	}
 
 	p.mouseMoved = function() {
-		var t = tree.getTreeAt(p.mouseX, p.mouseY);
-		t.growChildren();
-		p.redraw(); 
+		if(tree != undefined) {
+			var t = tree.getTreeAt(p.mouseX, p.mouseY);
+			t.growChildren();
+			p.redraw(); 
+		}
 	}
 
 	p.mousePressed = function() {

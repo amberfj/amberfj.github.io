@@ -14,6 +14,8 @@ slideshow:
    caption: Fuckers (DID Camp 2005)
  - html: <div id="quadtree-sketch"></div>
    caption: Quadtree; hover to interact
+ - html: <div id="revolvers-sketch"></div>
+   caption: Revolvers (DID Camp 2005)
  
 ---
 
@@ -24,3 +26,4 @@ Collection of old processing files converted to p5.js
 <script src="../assets/images/processing-sketches/citation/sketch.js"></script>
 <script src="../assets/images/processing-sketches/fuckers/sketch.js"></script>
 <script src="../assets/images/processing-sketches/quadtree/sketch.js"></script>
+<script src="../assets/images/processing-sketches/revolvers/sketch.js"></script>
