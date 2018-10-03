@@ -3,8 +3,6 @@ layout: display
 title:  "Burning Ballet Mecanique"
 year: 2018
 categories: projects
-image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique-training.png
-width: 450
 
 items:
 - image: burning-ballet-mecanique/display/bottles_sm.gif
