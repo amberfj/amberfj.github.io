@@ -17,7 +17,6 @@ git remote remove origin
 git remote add origin ssh://amberfj@amberfj.com/home/amberfj/amberfj.com/repo.git
 ```
 
-
 ### Common Git Commands
 
 | command                    | description                                  |
