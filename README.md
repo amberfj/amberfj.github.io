@@ -16,7 +16,7 @@ If any changes are made to `_config.yml`, you may have to restart the server for
 git remote remove origin
 git remote add origin ssh://amberfj@amberfj.com/home/amberfj/amberfj.com/repo.git
 ```
-
+ 
 ### Common Git Commands
 
 | command                    | description                                  |
