@@ -5,7 +5,7 @@ year: 2018
 categories: projects
 
 homepage: true
-image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique_walk-221-sm.gif
+image: burning-ballet-mecanique/walk-resized.gif
 width: 450
 
 slideshow:

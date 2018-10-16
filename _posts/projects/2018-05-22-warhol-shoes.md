@@ -5,7 +5,7 @@ year: 2018
 categories: projects
 
 homepage: true
-image: warhol/warhol_warhol_time_walk.gif
+image: warhol/warhol-walk-resized.gif
 width: 450
 
 slideshow:
