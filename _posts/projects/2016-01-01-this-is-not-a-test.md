@@ -5,8 +5,8 @@ year: 2016
 categories: projects
 
 homepage: true
-image: this-is-not-a-test/this-is-not-a-test-bunny.png
-width: 400
+image: this-is-not-a-test/this-is-not-a-test-0.jpg
+width: 700
 
 slideshow:
  - image: this-is-not-a-test/this-is-not-a-test-0.jpg
