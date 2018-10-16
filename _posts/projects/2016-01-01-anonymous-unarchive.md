@@ -5,7 +5,7 @@ year: 2016
 categories: projects
 
 homepage: true
-image: anonymous-unarchive/anonymous-unarchive-5.jpg
+image: anonymous-unarchive/Mashup-Cover.png
 width: 400
 
 slideshow:
