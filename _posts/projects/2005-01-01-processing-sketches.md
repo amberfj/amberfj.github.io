@@ -16,6 +16,8 @@ slideshow:
    caption: Quadtree; hover to interact
  - html: <div id="revolvers-sketch"></div>
    caption: Revolvers (DID Camp 2005)
+ - html: <div id="studyinsquaresandnoise-sketch"></div>
+   caption: Study in Square and Noise; hover to interact
  
 ---
 
@@ -27,3 +29,6 @@ Collection of old processing files converted to p5.js
 <script src="../assets/images/processing-sketches/fuckers/sketch.js"></script>
 <script src="../assets/images/processing-sketches/quadtree/sketch.js"></script>
 <script src="../assets/images/processing-sketches/revolvers/sketch.js"></script>
+<!--<script src="../assets/images/processing-sketches/leaf/sketch.js"></script>-->
+<script src="../assets/images/processing-sketches/COLORWAVE/sketch.js"></script>
+<script src="../assets/images/processing-sketches/studyinsquaresandnoise/sketch.js"></script>
