@@ -13,9 +13,9 @@ items:
 - image: warhol/display/randomwalk-295298-917202.gif
 - image: warhol/display/randomwalk1.gif
 - image: warhol/display/test2.gif
-- image: warhol/display/warhol2_time_walk.gif
+- image: warhol/display/warhol2_time_walk_300x300.gif
   width: 300
-- image: warhol/warhol_warhol_time_walk.gif
+- image: warhol/warhol_warhol_time_walk_300x300.gif
   width: 300
 - image: warhol/display/broken.gif
 ---
