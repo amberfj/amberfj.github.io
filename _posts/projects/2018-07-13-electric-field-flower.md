@@ -19,6 +19,7 @@ slideshow:
  - image: flowers/09-edir.jpg
  - image: flowers/10-edip.jpg
  - image: flowers/11-ediu.jpg
+ - image: flowers/12-ediu.jpg 
  - image: flowers/Electric-field-of-a-flower-FLP-2018-sm.png
  
 ---

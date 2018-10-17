@@ -6,7 +6,7 @@ categories: projects
 
 homepage: true
 image: i-hear-you-say/i-hear-you-say-0.jpg
-width: 400
+width: 600
 
 slideshow:
  - image: i-hear-you-say/i-hear-you-say-0.jpg 
