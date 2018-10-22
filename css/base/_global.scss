@@ -39,10 +39,13 @@ img.thumbnail {
 }
 
 a {
-	text-decoration: none;
-	color: #000000;
+  text-decoration: none;
+  color: #000000;
+
+  border-bottom: 1px dotted;
 
   &:hover {
+    color: #ff0099;
     border-bottom: 1px dotted #ff0099;
   }
 }
