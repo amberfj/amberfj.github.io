@@ -5,17 +5,15 @@ year: 2018
 categories: projects
 
 homepage: true
-image: flowers/Electric-field-of-a-flower-FLP-2018-sm.png 
-width: 500px
+image: flowers/Electric-field-of-a-flower.png 
+width: 600px
 
 slideshow:
 
- - image: flowers/01-fci3.jpg
+ - image: flowers/01-fci.jpg
  - image: flowers/02-fci.jpg
  - image: flowers/03-fci.jpg
- - image: flowers/06-edi.jpg
- - image: flowers/07-edir.jpg
- - image: flowers/Electric-field-of-a-flower-FLP-2018-sm.png
+ - image: flowers/Electric-field-of-a-flower.png
  
 ---
 
