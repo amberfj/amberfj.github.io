@@ -5,10 +5,11 @@ year: 2014
 categories: projects
 
 homepage: true
-image: reading-vogue/reading-vogue-0.jpg
+image: reading-vogue/vogue-w800-loop.gif
 width: 600
 
 slideshow:
+ - image: reading-vogue/vogue-w800-loop.gif
  - image: reading-vogue/reading-vogue-0.jpg
    caption:  Composite video stills, Reading Vogue 
  - image: reading-vogue/reading-vogue-1.jpg
