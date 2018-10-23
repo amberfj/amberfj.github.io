@@ -9,7 +9,6 @@ image: reading-vogue/vogue-w800-loop.gif
 width: 600
 
 slideshow:
- - image: reading-vogue/vogue-w800-loop.gif
  - image: reading-vogue/reading-vogue-0.jpg
    caption:  Composite video stills, Reading Vogue 
  - image: reading-vogue/reading-vogue-1.jpg
@@ -20,7 +19,7 @@ slideshow:
    caption:  Composite video stills, Reading Vogue
  - image: reading-vogue/reading-vogue-4.jpg
    caption:  Composite video stills, Reading Vogue
-
+ - image: reading-vogue/vogue-w800-loop.gif
 ---
 
 *Reading Vogue* is a short video I created and presented at “Questioning Aesthetics,” a symposium organized by Michael Kelly, editor of the *Encyclopedia of Aesthetics, 2nd edition* (Oxford University Press). The symposium was held at the Pratt Institute in New York in September, 2014. The video relates to my essay on ‘data visualization’ for the *Encyclopedia*. My presentation was followed by a panel discussion in which I participated with Christiane Paul and Boris Groys.
