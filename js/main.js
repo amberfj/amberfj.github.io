@@ -24,8 +24,8 @@ window.addEventListener('load', function() {
 		var timeout, duration, defaultDuration = 5000;
 
 		function setSlide(newIndex) {    
-			slides[currentIndex].classList.remove('visible'); 	// Hide current slide
-			currentIndex = mod(newIndex, slides.length); 				// Update slide index
+			slides[currentIndex].classList.remove('visible'); 		// Hide current slide
+			currentIndex = mod(newIndex, slides.length); 			// Update slide index
 			slides[currentIndex].classList.add('visible'); 			// Show new slide
 			
 			// Update slide counter

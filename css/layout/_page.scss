@@ -37,13 +37,13 @@
 		position: absolute;
 
 		// images in slideshow default to being invisible
-		display: none;
+		visibility: hidden;
 		opacity: 0;
 		transition: opacity .25s linear;
 	}
 
 	.slideshow > *.visible { 
-		display: block;
+		visibility: visible;
 		opacity: 1;
 	}
 
