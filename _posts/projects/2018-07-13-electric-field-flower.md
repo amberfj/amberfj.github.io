@@ -5,7 +5,7 @@ year: 2018
 categories: projects
 
 homepage: true
-image: flowers/Electric-field-of-a-flower.png 
+image: flowers/Electric-field-of-a-flower.jpg 
 width: 600px
 
 slideshow:
@@ -13,7 +13,7 @@ slideshow:
  - image: flowers/01-fci.jpg
  - image: flowers/02-fci.jpg
  - image: flowers/03-fci.jpg
- - image: flowers/Electric-field-of-a-flower.png
+ - image: flowers/Electric-field-of-a-flower.jpg
  
  
 ---

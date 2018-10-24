@@ -19,9 +19,9 @@ slideshow:
    caption: Installation shot, This Is Not a Test (2016)
  - image: this-is-not-a-test/this-is-not-a-test-4.jpg
    caption: Installation shot, This Is Not a Test (2016)
- - image: this-is-not-a-test/this-is-not-a-test-lena.png
+ - image: this-is-not-a-test/this-is-not-a-test-lena.jpg
    caption: Test image of Lena used in image analysis.  
- - image: this-is-not-a-test/this-is-not-a-test-bunny.png
+ - image: this-is-not-a-test/this-is-not-a-test-bunny.jpg
    caption: The Stanford Bunny test file used to develop image processing algorithms, in this case for non-photorealistic rendering. 
  - image: this-is-not-a-test/this-is-not-a-test-poster.jpg
    caption: Poster for MashUp, 2016

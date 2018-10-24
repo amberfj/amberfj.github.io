@@ -3,14 +3,14 @@ layout: page
 title:  "Data Is Politcal: Art, Design and the Politics of Information"
 year: 2012
 categories: projects
-image: data-is-political/data-is-political-poster.png
+image: data-is-political/data-is-political-poster.jpg
 homepage: true
 width: 400
 slideshow:
 
  - image: data-is-political/data-is-political-fuller.jpg
  
- - image: data-is-political/data-is-political-poster.png
+ - image: data-is-political/data-is-political-poster.jpg
    caption: Poster, Data Is Political. Designed by Ina Kwon, 2012.
    
  - image: data-is-political/data-is-political-screencap.jpg
@@ -19,7 +19,7 @@ slideshow:
  - image: data-is-political/data-is-political-talk-0.jpg
    caption: Conference room at the Bergen Public Library.
    
- - image: data-is-political/data-is-political-talk-1.png
+ - image: data-is-political/data-is-political-talk-1.jpg
    caption: Speaker presentations and panels in the conference room at the Bergen Public Library.
    
  - image: data-is-political/data-is-political-talk-2.jpg

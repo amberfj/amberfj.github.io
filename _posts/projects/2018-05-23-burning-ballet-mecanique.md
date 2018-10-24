@@ -9,7 +9,7 @@ image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique_walk-221-300x300.gif
 width: 450
 
 slideshow:
- - image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique-training.png
+ - image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique-training.jpg
  - image: burning-ballet-mecanique/2018-AFJ-ballet-mecanique_walk-221-300x300.gif
    duration: 20000
    caption: "Burning Ballet Mecanique, animated gif of training over 200 epochs."

@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
 		var maxHeight = slides.reduce(function(height, el) { return Math.max(height, el.offsetHeight) }, 0);
 		slideshow.style.height = maxHeight + 'px';
 
-		var timeout, duration, defaultDuration = 5000;;
+		var timeout, duration, defaultDuration = 5000;
 
 		function setSlide(newIndex) {    
 			slides[currentIndex].classList.remove('visible'); 	// Hide current slide
