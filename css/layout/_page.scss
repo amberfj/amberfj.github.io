@@ -65,4 +65,17 @@
 		margin-top: 0;
 		margin-bottom: 20px;
 	}
+
+	@media print {
+	  .slide-controller {
+	  	display: none !important;
+	  }
+
+	  .slideshow img {
+	  	max-height: 300px;
+	  }
+	  .slideshow {
+	  	max-height: 300px;
+	  }
+	}
 }
