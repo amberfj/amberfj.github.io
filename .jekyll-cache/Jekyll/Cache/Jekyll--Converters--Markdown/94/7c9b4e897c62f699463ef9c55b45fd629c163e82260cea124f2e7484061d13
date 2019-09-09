@@ -1,0 +1,15 @@
+I"#<table>
+    <!-- HTML in markdown because (a) fits with page layout (b) to be able to add paragraphs above or below list of texts -->
+    
+    
+        <tr>
+            <td><a href="/texts/la-lucha-sin-fin.html">
+                <img class="thumbnail" src="/../assets/images/la-lucha-sin-fin/la-lucha-sin-fin-cover.jpg" height="40px" />
+            </a></td>
+            <td><a href="/texts/la-lucha-sin-fin.html">
+                La Lucha Sin Fin: On Charismatics and Its Persuasive Technologies
+            </a></td>
+        </tr>
+    
+</table>
+:ET
