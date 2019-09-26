@@ -12,7 +12,7 @@ The Studio for Extensive Aesthetics (SEA) investigates the roles of art and tech
 Dr. T’ai Smith (UBC), Kathy Slade (ECU), Joe Dahmen (UBC), Dr. Katherine Gillieson, Dr. Caroline Park (ECU), Mel Chin, Ben Dalton (RCA), Dr. Archon Fung (Harvard), Dr. Mark Warren (UBC), Lucy Orta (UAL), Andrea Del Rio, Lydia Prince, Robert Kleyn, David Ascher, Dethe Elza, Tim Waters
 
 **Student & Post-Graduate Research Assistants**<br/>
-<a href="http://matthisgrunsky.ca">Matthis Grunsky</a> (MFA 2016), Jesi Carson (MDes 2018), Azlen Elza (BFA 2022), Lianne Zannier (MFA 2016), Joe O’Brien (MFA 2016), Bronwyn McMillin (MFA 2016), Lily Mead Martin (MFA 2016), Kushal Goenka (BDes 2017), Sabrina Ng (BDes 2014), Stephan Garneau (BDes 2015), Adam Cristobal (MDes 2014), Sam Jiang (BDes 2013), Heather Tsang (BDes 2013), Joakim Sundal (BDes 2013) 
+<a href="https://www.matthisgrunsky.ca/">Matthis Grunsky</a> (MFA 2016), Jesi Carson (MDes 2018), Azlen Elza (BFA 2022), Lianne Zannier (MFA 2016), Joe O’Brien (MFA 2016), Bronwyn McMillin (MFA 2016), Lily Mead Martin (MFA 2016), Kushal Goenka (BDes 2017), Sabrina Ng (BDes 2014), Stephan Garneau (BDes 2015), Adam Cristobal (MDes 2014), Sam Jiang (BDes 2013), Heather Tsang (BDes 2013), Joakim Sundal (BDes 2013) 
 
 **Funding Organizations**<br/>
 Canada Research Chair Program, Canada Foundation for Innovation, Social Sciences and Humanities Research Council, Peter Wall Institute for Advanced Studies, UBC SEEDS Sustainability Program
