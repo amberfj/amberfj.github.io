@@ -1,4 +1,14 @@
-# amberfj.github.io brief documentation
+# ⚠️⚠️ REPOSITORY MOVED TO DREAMHOST ⚠️⚠️
+# DON'T PULL/PUSH HERE
+
+## CHANGE ORIGIN TO DREAMHOST REPOSITORY
+
+```
+git remote remove origin
+git remote add origin ssh://amberfj@ssh.amberfj.com/home/amberfj/amberfj.com/repo.git
+```
+
+
 
 ## Basics
 
@@ -9,13 +19,6 @@
 3. *Open [http://localhost:4000](http://localhost:4000) in web browser*
 
 If any changes are made to `_config.yml`, you may have to restart the server for changes to take effect.
-
-### Git Setup
-
-```
-git remote remove origin
-git remote add origin ssh://amberfj@amberfj.com/home/amberfj/amberfj.com/repo.git
-```
 
 ### Common Git Commands
 
